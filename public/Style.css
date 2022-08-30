@@ -1,0 +1,281 @@
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+  }
+
+.bg-cover {
+background-image: url(imgs/Slider.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.fc-grey {
+   color: #5c5e5f; 
+}
+
+.fw {
+    font-weight: 400!important;
+}
+
+.button-red {
+    background-color: red;
+    border-radius: 22px;
+    border-color: red;
+    width: 115px;
+    height: 40px;
+}
+
+.banner1 {
+    background-image: url(https://m2.alothemes.com/safira/media/wysiwyg/alothemes/demo3/03banner-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner2 {
+    background-image: url(https://m2.alothemes.com/safira/media/wysiwyg/alothemes/demo3/03banner-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner3 {
+    background-image: url(https://m2.alothemes.com/safira/media/wysiwyg/alothemes/demo3/03banner-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner4 {
+    background-image: url(https://m2.alothemes.com/safira/media/wysiwyg/alothemes/demo3/bg_block.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+
+.banner5 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+}
+
+.banner6 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+}
+
+.banner7 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+}
+
+.banner8 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+}
+
+.banner9 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+}
+
+.banner10 {
+    background-image: url(https://m2.alothemes.com/safira/media/magefan_blog/blog-furniture-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+}
+
+.home-slide{
+    margin-bottom: 30px;
+}
+
+.list-style {
+    list-style: none;
+    line-height: 35px;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.redLine {
+    border: 1px solid red;
+    width: 50px;
+    margin: auto;
+}
+
+/* .card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    text-align: center;
+    border-top: 2px solid rgb(0 0 0 / 8%);
+    width: auto;
+} */
+
+.card:hover {
+    border: 1px solid #ff0000;
+    cursor: pointer;
+}
+
+.nav-custom:hover {
+    color: rgb(253, 10, 10) !important;
+    cursor: pointer;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.text1 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.text2 {
+    color: white;
+    font-size: 19px;
+    line-height: 1.33333;
+}
+
+/* .card-body1 {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    text-align: start;
+    margin-top: 16px;
+    line-height: 31px;
+} */
+
+.red-box {
+    background-color: #ff0000;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+   
+
+}
+
+.anchor{
+    color: #253237;
+    text-decoration: none;
+
+}
+
+.a:hover { 
+        color: rgb(253, 10, 10); 
+}
+
+.outline {
+    border: 1px solid rgb(0 0 0 / 13%);;
+    border-radius: 3px;
+    height: 15vh;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+    position: relative;
+    top: 10px;
+    right: 71px;
+    font-size: x-large;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    position: relative;
+    top: 10px;
+    right: 55px;
+    font-size: x-large;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    position: relative;
+    top: 10px;
+    right: 62px;
+    font-size: x-large;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    position: relative;
+    top: 10px;
+    right: 40px;
+    font-size: x-large;
+}
+.search-bar {
+    border-radius: 34px;
+    border-color: #0000003d;
+    border-width: 1px;
+    width: 100%;
+}
+
+.turn-red:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.border1 {
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-radius: 2px;
+    height: 100px;
+}
+
+.carousel-control-prev-icon {
+    
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+
+.carousel-control-next-icon {
+    
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      display: block;
+    }
+  }
